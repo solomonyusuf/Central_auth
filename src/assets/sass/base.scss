@@ -1,0 +1,105 @@
+*,
+*::after,
+*::before{
+   padding:0;
+   margin:0;
+   scroll-behavior: smooth;
+   box-sizing: inherit;
+}
+html{
+  font-size: 96.5%;
+ 
+}
+
+
+@import './_variables';
+@import './_utilities';
+
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    background: #f9fafb;
+  }
+  input:focus {
+    border-color: #9343be;
+    box-shadow: 0 0 0 3px rgba(147, 67, 190, 0.2);
+  }
+  
+  .border-bottom{
+    border-bottom:thin solid rgb(167, 165, 165);
+  }
+  .border{
+    border:thin solid rgb(92, 90, 90);
+  }
+
+@media (max-width: 1138px) {
+
+  .mobile-menu {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop-menu {
+    display: none !important;
+  }
+  .mobile-menu {
+    display: flex !important;
+  }
+
+}
+
+.underline-dotted {
+  text-decoration: underline dotted;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+.scroll-y {
+  overflow-y: auto;
+}
+
+.scroll-x {
+  overflow-x: auto;
+}
+
+.scroll {
+  overflow: auto;
+}
+
+.slim-scroll {
+  overflow-y: auto;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #ccc transparent; /* Firefox */
+}
+
+/* Chrome, Edge, Safari */
+.slim-scroll::-webkit-scrollbar {
+  width: 2px;
+}
+
+.slim-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.slim-scroll::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+
+  /* For WebKit browsers */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.logo{
+  height:20px;
+}
+

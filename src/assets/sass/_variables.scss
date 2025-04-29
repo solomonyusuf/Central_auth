@@ -1,0 +1,170 @@
+
+$colors: (
+  primary:#9343be,
+  primary-light:#ff37c645,
+  secondary: #2f2f2f,
+  secondary-light: #1e2021d3,
+  ash: #8d8666,
+  ash-light: #8d866663,
+  orange: #ff4d00,
+  orange-light: #ff4d0042,
+  accent: #f59e0b,
+  violet: #a457ff,
+  violet-light: #a557ff64,
+  success: #00bf9d,
+  success-light: #00bf9c4d,
+  green: rgba(35, 183, 206, 0.507),
+  danger: #ef4444,
+  cyan: #2abdff,
+  cyan-light: #131f318c,
+  white: #ffffff,
+  gray: #858585,
+  black: #000000,
+  dark-light: #23222260,
+  dark: #131313,
+);
+
+$table-bg: transparent;
+$text-color: #f1f1f1;
+$text-red: #ff4d4f;
+$text-green: #52c41a;
+$border-color: rgb(62, 61, 61);
+
+$primary-color: #ffffff;
+$secondary-color: #f0f0f0;
+
+$spacing-scale: (
+  0: 0,
+  1: 0.25rem,
+  2: 0.5rem,
+  3: 0.75rem,
+  4: 1rem,
+  5: 1.25rem,
+  6: 1.5rem,
+  7: 1.8rem,
+  8: 2.3rem,
+  10: 2.5rem,
+  12: 3rem,
+  13: 3.5rem,
+  14: 4rem,
+  15: 4.5rem,
+  16: 5rem,
+  17: 5.5rem,
+  18: 6rem,
+  19: 6.6rem,
+  20: 7rem,
+  22: 10rem,
+  25: 15rem,
+  30: 20rem,
+  32: 22rem,
+  33: 23rem,
+  34: 24rem,
+  35: 25rem,
+  37: 25.5rem,
+  40: 30rem,
+  45: 35rem,
+  47: 37rem,
+  full: 100%,
+  screen: 100vh
+);
+
+$font-weights: (
+  thin: 100,
+  extra-light: 200,
+  light: 300,
+  normal: 400,
+  medium: 500,
+  semi-bold: 600,
+  bold: 700,
+  extra-bold: 800,
+  black: 900
+);
+
+$text-sizes: (
+  xs: 0.75rem,
+  sm: 0.875rem,
+  base: 1rem,
+  lg: 1.125rem,
+  xl: 1.25rem,
+  2xl: 1.5rem,
+  3xl: 1.875rem,
+  4xl: 2.25rem,
+  5xl: 3rem,
+  6xl: 3.75rem,
+  7xl: 4.5rem,
+  8xl: 6rem,
+  9xl: 8rem
+);
+
+$justify-options: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  between: space-between,
+  around: space-around,
+  evenly: space-evenly
+);
+
+$hover-utilities: (
+  bg: (
+    hover-bg-1: #f1f1f1,
+    hover-bg-2: #333333,
+    hover-bg-3: #1e68d2
+  ),
+  text: (
+    hover-text-1: #ff0000,
+    hover-text-2: #00ff00,
+    hover-text-3: #0000ff
+  ),
+  scale: (
+    hover-scale-1: 1.05,
+    hover-scale-2: 1.1
+  ),
+  opacity: (
+    hover-opacity-1: 0.8,
+    hover-opacity-2: 0.6
+  )
+);
+
+$border-radius: (
+  none: 0,
+  sm: 0.125rem,
+  md: 0.25rem,
+  lg: 0.375rem,
+  xl: 0.5rem,
+  2xl: 0.75rem,
+  3xl: 1.5rem,
+  full: 9999px
+);
+
+$border-widths: (
+  none: 0,
+  sm: 0.5px,
+  md: 1px,
+  lg: 2px,
+  xl: 3px
+);
+$grid-columns: 12;
+
+$breakpoints: (
+  sm: 640px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1280px,
+  xxl: 1536px
+);
+
+$grid-gap: 16px;            
+$grid-columns: 12;          
+$mobile-breakpoint: 768px;  
+$tablet-breakpoint: 1024px; 
+$gutter: 16px;
+
+$switch-width: 50px;
+$switch-height: 26px;
+$switch-bg: #313131d1;
+$switch-bg-active: #2563eb;
+$switch-thumb-size: 18px;
+$switch-thumb-bg: #fff;
+$switch-thumb-bg-active: #2563eb;
+$switch-transition: 0.3s ease;
