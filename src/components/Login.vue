@@ -14,13 +14,13 @@
                     </div>
                     <div class="flex flex-row justify-center mt-7">
                         <div class="flex flex-col justify-center mt-10">
-                            <label class="font-medium">Enter email</label>
+                            <label class="font-semi-bold">Enter email</label>
                             <input v-model="email" placeholder="" style="border: 2px solid #9343be;" class="mt-1 w-30 h-10 rounded-xl  border px-3"  />
                         </div>
                     </div>
                     <div class="flex flex-row justify-center mt-4">
                         <div class="flex flex-col justify-center">
-                            <label class="font-medium">Enter Password</label>
+                            <label class="font-semi-bold">Enter Password</label>
                             <input v-model="password" placeholder="" style="border: 2px solid #9343be;" class="mt-1 w-30 h-10 rounded-xl border px-3"  />
                         </div>
                     </div>
